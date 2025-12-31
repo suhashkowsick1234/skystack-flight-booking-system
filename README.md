@@ -1,6 +1,7 @@
-# ✈️ SkyStack - Flight Booking System
+✈️ SkyStack – Flight Booking System
 
-A scalable, production-ready flight booking system built with **Node.js**, **MongoDB**, and **Redis**. This project demonstrates a modular microservices architecture with authentication, caching, containerization, and cloud deployment capabilities.
+SkyStack is a scalable backend-focused flight booking system built with Node.js, MongoDB, and Redis.
+The project is designed to simulate real-world airline booking workflows and demonstrates clean service-layer architecture, authentication, caching, containerization, and cloud-ready deployment.
 
 ![Architecture Diagram](https://github.com/LiteLife99/Nodejs-Mongo-POC/assets/52050647/2896ade7-6fa1-45dd-a794-682baf560f4a)
 
@@ -51,8 +52,9 @@ A scalable, production-ready flight booking system built with **Node.js**, **Mon
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/LiteLife99/Nodejs-Mongo-POC.git
-   cd Nodejs-Mongo-POC
+   git clone https://github.com/suhashkowsick1234/skystack-flight-booking-system.git
+   cd skystack-flight-booking-system
+
    ```
 
 2. **Install dependencies**
@@ -68,7 +70,7 @@ A scalable, production-ready flight booking system built with **Node.js**, **Mon
    {
      "test": {
        "mongodb": {
-         "MONGO_URI": "mongodb://localhost:27017/SukasaAir"
+         "MONGO_URI": "mongodb://localhost:27017/SkyStack"
        },
        "redis": {
          "host": "localhost",
@@ -324,12 +326,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 👤 Author
 
-**Arnab Mukherjee**  
-Software Development Engineer | ML Enthusiast  
-4+ years experience in B2B, B2C, and B2B2C systems  
-Domains: Healthcare, Logistics, Transportation  
-
-[GitHub Profile](https://github.com/LiteLife99)
+**Suhash Kowsick**  
+Software Development Engineer  
 
 ---
 
