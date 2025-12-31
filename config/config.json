@@ -1,0 +1,36 @@
+{
+    "test": {
+        "aws": {
+            "accessKey": "abcd",
+            "secretKey": "xyz"
+        },
+        "logStreams": {
+            "appLogStream": "my-kinesis-logs-stream"
+        },
+        "mongodb": {
+            "MONGO_URI": "mongodb://localhost:27017/SukasaAir"
+        },
+        "redis": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "authSecret": "mySecretKey123"
+    },
+    "production": {
+        "aws": {
+            "accessKey": "abcd",
+            "secretKey": "xyz"
+        },
+        "logStreams": {
+            "appLogStream": "my-kinesis-logs-stream"
+        },
+        "mongodb": {
+            "MONGO_URI": "mongodb://localhost:27017/SukasaAir"
+        },
+        "redis": {
+            "host": "localhost",
+            "port": 6379
+        },
+        "authSecret": "mySecretKey123"
+    }
+}
